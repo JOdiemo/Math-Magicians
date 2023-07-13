@@ -1,24 +1,28 @@
-/* eslint-disable */
-const Displayer = ({ obj }) => {
-  console.log(obj);
-  const show = (obj) => {
-    let len = Object.keys(obj).length;
+import PropTypes from 'prop-types';
 
-    if (len == '3') {
+const Displayer = ({ obj }) => {
+  const show = (obj) => {
+    const len = Object.keys(obj).length;
+
+    if (len === '3') {
       if (obj.operation == null && obj.next == null) {
         return obj.total;
-      } else if (obj.operation && obj.next == null) {
-        return obj.total + ' ' + obj.operation;
-      } else if (obj.operation && obj.next && obj.total) {
-        return obj.total + ' ' + obj.operation + ' ' + obj.next;
+      } if (obj.operation && obj.next == null) {
+        return `${obj.total} ${obj.operation}`;
+      } if (obj.operation && obj.next && obj.total) {
+        return `${obj.total} ${obj.operation} ${obj.next}`;
       }
     }
 
-    if (len == '2') {
+    if (len === '2') {
       return obj.next;
     }
+    return null;
   };
-  return <div className='calculator-display number'>{show(obj) || 0}</div>;
+  return <div className="calculator-display number">{show(obj) || 0}</div>;
 };
+Displayer.propTypes = {
+  obj: PropTypes.string.isRequired,
 
+};
 export default Displayer;
