@@ -1,7 +1,10 @@
-import calculate from './logic/calculate';
-const Button = ({ obj, setObj, value, classList }) => {
+/* eslint-disable */
+import React from 'react';
+import PropTypes from 'prop-types';
+
+function Button({ obj , setObj, value, classList }) {
   const handleInput = (e) => {
-    setObj(calculate(obj, e.target.innerText));
+
   };
 
   return (
@@ -9,10 +12,10 @@ const Button = ({ obj, setObj, value, classList }) => {
       className={classList}
       onClick={(e) => {
         handleInput(e);
-      }}>
+      } }>
       {value}
     </button>
   );
-};
+}
 
 export default Button;

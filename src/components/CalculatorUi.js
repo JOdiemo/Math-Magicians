@@ -1,6 +1,7 @@
 import { useState } from 'react';
 import Displayer from './Displays';
 import Button from './Button';
+import PropTypes from 'prop-types';
 
 const CalculatorUi = () => {
   const [obj, setObj] = useState({
