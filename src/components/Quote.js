@@ -2,6 +2,7 @@
 import { useEffect, useState } from 'react';
 import Loader from './Loader';
 import Error from './Error';
+import './Quotes.css';
 
 const Quote = () => {
   const [quote, setQuote] = useState(null);

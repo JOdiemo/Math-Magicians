@@ -1,6 +1,5 @@
 /* eslint-disable */
 const Displayer = ({ obj }) => {
-  console.log(obj);
   const show = (obj) => {
     let len = Object.keys(obj).length;
 
