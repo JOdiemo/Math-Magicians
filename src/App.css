@@ -26,7 +26,6 @@ body {
 
 /* Calculator style */
 .calculator-container {
-  display: flex;
   align-items: center;
   border: 2px solid var(--primary-color);
   border-radius: 10px;
@@ -36,6 +35,7 @@ body {
   margin-top: 10rem;
   border-left: 50px;
   margin-right: 100rem;
+
   /* border-color: #000; */
   width: 50%;
 }
@@ -226,5 +226,4 @@ body {
   align-items: center;
 }
 
-/*Navigation bar */
-
+/* Navigation bar */
