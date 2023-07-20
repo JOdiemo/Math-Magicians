@@ -30,5 +30,3 @@ describe('Testing user interactions on the main component (App.js).', () => {
     });
   });
 });
-
-
