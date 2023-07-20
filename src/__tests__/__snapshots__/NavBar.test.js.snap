@@ -1,0 +1,52 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Navbar component matches the snapshot 1`] = `
+<div
+  className="NavContainer"
+>
+  <nav
+    className="ChalkBoard Nav"
+  >
+    <h1>
+      Math Magicians
+    </h1>
+    <ul
+      className="Nav-Ul"
+    >
+      <li
+        className="Nav-Li"
+      >
+        <a
+          exact="true"
+          href="/"
+          onClick={[Function]}
+        >
+          Home
+        </a>
+      </li>
+      <li
+        className="Nav-Li"
+      >
+        <a
+          exact="true"
+          href="/calculator"
+          onClick={[Function]}
+        >
+          Calculator
+        </a>
+      </li>
+      <li
+        className="Nav-Li"
+      >
+        <a
+          exact="true"
+          href="/quotes"
+          onClick={[Function]}
+        >
+          Quotes
+        </a>
+      </li>
+    </ul>
+  </nav>
+</div>
+`;

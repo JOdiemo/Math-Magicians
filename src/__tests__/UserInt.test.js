@@ -17,4 +17,18 @@ describe('Testing user interactions on the main component (App.js).', () => {
       ).toBeInTheDocument();
     });
   });
+
+  describe('When user clicks on Home button', () => {
+    it('should render the home page', async () => {
+      act(() => {
+        render(<App />);
+      });
+      await userEvent.click(screen.getByRole('link', { name: /Calculator/i }));
+      expect(
+        screen.getByRole('heading', { name: /JorumOdiemo/i }),
+      ).toBeInTheDocument();
+    });
+  });
 });
+
+
