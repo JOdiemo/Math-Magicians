@@ -1,7 +1,7 @@
 import React from 'react';
 import renderer from 'react-test-renderer';
 import { BrowserRouter as Router } from 'react-router-dom';
-import Navbar from '../components/Navbar.js';
+import Navbar from '../components/NavBar';
 
 describe('Navbar component', () => {
   it('matches the snapshot', () => {
