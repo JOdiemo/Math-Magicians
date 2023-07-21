@@ -1,0 +1,15 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Button component matches the snapshot 1`] = `
+<button
+  onClick={[Function]}
+  type="button"
+/>
+`;
+
+exports[`Navbar component matches the snapshot 1`] = `
+<button
+  onClick={[Function]}
+  type="button"
+/>
+`;
