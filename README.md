@@ -62,7 +62,7 @@ react app
 
 ## 🚀 Live Demo <a name="live-demo"></a>
 
-- [Live Demo]
+- [Live Demo](https://magic-magicians-application.onrender.com)
 <!-- - [Video](#)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
